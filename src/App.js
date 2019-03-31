@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component,useState } from 'react';
 
-import Login from './containers/registration/login';
+import './App.css';
+import ReactState from './containers/registration/login/react_state';
+
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Login />
+        <ReactState />
+        {/* <p>Helelo </p> */}
       </div>
     );
   }
 }
+
+
+
 
 export default App;
